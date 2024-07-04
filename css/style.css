@@ -44,4 +44,11 @@ h1 {
   height: 60px;
   font-size: 18px;
   font-weight: 600;
+  transition: all linear 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #2a4474;
+  background-color: pink;
 }
