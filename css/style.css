@@ -25,7 +25,7 @@ h1 {
   /* max-width 1100px er mane hocche jodi width 1100px er beshi hoy
   tahole width 1100px e nou r jodi 1100px er kom hoy tahole width 100% nou */
   margin: 50px auto;
-  clip-path: polygon(96% 0, 100% 96%, 4% 99%, 0 4%);
+  /* clip-path: polygon(96% 0, 100% 96%, 4% 99%, 0 4%); */
 }
 
 .btn-parent {
