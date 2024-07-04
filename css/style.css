@@ -4,39 +4,44 @@
 }
 
 h1 {
-  color: red;
+  color: #1c1c9b;
   font-style: oblique;
-  font-weight: lighter;
+  font-weight: 999;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-decoration: underline;
-  font-size: 36px;
+  font-size: 64px;
   text-align: center;
 }
 
 #heading-parent {
-  background-color: burlywood;
+  background-image: linear-gradient(to top, #ddd, transparent),
+    url(../images/sunrise.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 400px;
   padding: 100px;
   max-width: 1100px;
   /* max-width 1100px er mane hocche jodi width 1100px er beshi hoy
   tahole width 1100px e nou r jodi 1100px er kom hoy tahole width 100% nou */
   margin: 50px auto;
+  clip-path: polygon(96% 0, 100% 96%, 4% 99%, 0 4%);
 }
 
-.btn-parent{
+.btn-parent {
   padding: 10px;
   margin-top: 50px;
   text-align: center;
-  background-color: #999;
 }
 
 .btn {
-	background-color: #fff;
-	padding: 8px 15px;
-	border: 4px solid #222;
-	border-radius: 8px;
-	width: 200px;
-	height: 60px;
-	font-size: 18px;
-	font-weight: 600;
+  color: #e6d9d9;
+  background-color: #2a4474;
+  padding: 8px 15px;
+  border: 2px solid #3c3c52;
+  border-radius: 8px;
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 600;
 }
